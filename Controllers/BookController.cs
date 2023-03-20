@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using task_three.Models;
 
-namespace task_three.Controllers
+namespace task_three.Controllers  
 {
     [Route("api/[controller]")]
     [ApiController]
