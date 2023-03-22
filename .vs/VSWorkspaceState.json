@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Amos"
+    "\\Amos",
+    "\\Amos\\Stage_three_task",
+    "\\Amos\\Stage_three_task\\Book_Managenment",
+    "\\Amos\\Stage_two_task"
   ],
-  "SelectedNode": "\\Amos",
+  "SelectedNode": "\\Amos\\Stage_three_task\\Book_Managenment\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
