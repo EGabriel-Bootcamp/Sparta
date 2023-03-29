@@ -1,0 +1,12 @@
+C:\Users\Amos Iqout\source\repos\User_Management_App\User_Management.Domain\bin\Debug\net7.0\User_Management.Domain.deps.json
+C:\Users\Amos Iqout\source\repos\User_Management_App\User_Management.Domain\bin\Debug\net7.0\User_Management.Domain.dll
+C:\Users\Amos Iqout\source\repos\User_Management_App\User_Management.Domain\bin\Debug\net7.0\User_Management.Domain.pdb
+C:\Users\Amos Iqout\source\repos\User_Management_App\User_Management.Domain\obj\Debug\net7.0\User_Management.Domain.csproj.AssemblyReference.cache
+C:\Users\Amos Iqout\source\repos\User_Management_App\User_Management.Domain\obj\Debug\net7.0\User_Management.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amos Iqout\source\repos\User_Management_App\User_Management.Domain\obj\Debug\net7.0\User_Management.Domain.AssemblyInfoInputs.cache
+C:\Users\Amos Iqout\source\repos\User_Management_App\User_Management.Domain\obj\Debug\net7.0\User_Management.Domain.AssemblyInfo.cs
+C:\Users\Amos Iqout\source\repos\User_Management_App\User_Management.Domain\obj\Debug\net7.0\User_Management.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Amos Iqout\source\repos\User_Management_App\User_Management.Domain\obj\Debug\net7.0\User_Management.Domain.dll
+C:\Users\Amos Iqout\source\repos\User_Management_App\User_Management.Domain\obj\Debug\net7.0\refint\User_Management.Domain.dll
+C:\Users\Amos Iqout\source\repos\User_Management_App\User_Management.Domain\obj\Debug\net7.0\User_Management.Domain.pdb
+C:\Users\Amos Iqout\source\repos\User_Management_App\User_Management.Domain\obj\Debug\net7.0\ref\User_Management.Domain.dll
