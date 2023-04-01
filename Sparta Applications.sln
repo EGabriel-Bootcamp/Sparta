@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp", "BankApp\BankApp.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleLibraryManagementAPI", "SimpleLibraryManagementAPI\SimpleLibraryManagementAPI\SimpleLibraryManagementAPI.csproj", "{BCC97700-082A-4DF5-95F6-356BEE0EF086}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User_Management", "User_Management\User_Management\User_Management.csproj", "{02628BB5-D7BC-48D3-9B4F-959BE3781BC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BCC97700-082A-4DF5-95F6-356BEE0EF086}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCC97700-082A-4DF5-95F6-356BEE0EF086}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCC97700-082A-4DF5-95F6-356BEE0EF086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02628BB5-D7BC-48D3-9B4F-959BE3781BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02628BB5-D7BC-48D3-9B4F-959BE3781BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02628BB5-D7BC-48D3-9B4F-959BE3781BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02628BB5-D7BC-48D3-9B4F-959BE3781BC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
