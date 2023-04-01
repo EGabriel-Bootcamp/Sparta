@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\TimothyProjects\Sparta\Stage4\UserManagement\UserManagement.Domain\bin\Debug\net6.0\UserManagement.Domain.deps.json
+C:\Users\User\Desktop\TimothyProjects\Sparta\Stage4\UserManagement\UserManagement.Domain\bin\Debug\net6.0\UserManagement.Domain.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\Stage4\UserManagement\UserManagement.Domain\bin\Debug\net6.0\UserManagement.Domain.pdb
+C:\Users\User\Desktop\TimothyProjects\Sparta\Stage4\UserManagement\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\TimothyProjects\Sparta\Stage4\UserManagement\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\TimothyProjects\Sparta\Stage4\UserManagement\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\TimothyProjects\Sparta\Stage4\UserManagement\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.AssemblyInfo.cs
+C:\Users\User\Desktop\TimothyProjects\Sparta\Stage4\UserManagement\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\TimothyProjects\Sparta\Stage4\UserManagement\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\Stage4\UserManagement\UserManagement.Domain\obj\Debug\net6.0\refint\UserManagement.Domain.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\Stage4\UserManagement\UserManagement.Domain\obj\Debug\net6.0\UserManagement.Domain.pdb
+C:\Users\User\Desktop\TimothyProjects\Sparta\Stage4\UserManagement\UserManagement.Domain\obj\Debug\net6.0\ref\UserManagement.Domain.dll
