@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\bin\Debug\net6.0\UserSecurity.DataAccess.deps.json
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\bin\Debug\net6.0\UserSecurity.DataAccess.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\bin\Debug\net6.0\UserSecurity.DataAccess.pdb
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\bin\Debug\net6.0\UserSecurity.Domain.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\bin\Debug\net6.0\UserSecurity.Domain.pdb
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\obj\Debug\net6.0\UserSecurity.DataAccess.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\obj\Debug\net6.0\UserSecurity.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\obj\Debug\net6.0\UserSecurity.DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\obj\Debug\net6.0\UserSecurity.DataAccess.AssemblyInfo.cs
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\obj\Debug\net6.0\UserSecurity.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\obj\Debug\net6.0\UserSecurity.DataAccess.csproj.CopyComplete
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\obj\Debug\net6.0\UserSecurity.DataAccess.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\obj\Debug\net6.0\refint\UserSecurity.DataAccess.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\obj\Debug\net6.0\UserSecurity.DataAccess.pdb
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\obj\Debug\net6.0\ref\UserSecurity.DataAccess.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\bin\Debug\net6.0\UserSecurity.DataAccess.runtimeconfig.json
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.DataAccess\obj\Debug\net6.0\UserSecurity.DataAccess.genruntimeconfig.cache

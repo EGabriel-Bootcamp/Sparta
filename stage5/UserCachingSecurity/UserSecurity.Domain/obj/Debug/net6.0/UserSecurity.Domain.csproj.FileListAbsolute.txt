@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.Domain\bin\Debug\net6.0\UserSecurity.Domain.deps.json
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.Domain\bin\Debug\net6.0\UserSecurity.Domain.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.Domain\bin\Debug\net6.0\UserSecurity.Domain.pdb
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.Domain\obj\Debug\net6.0\UserSecurity.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.Domain\obj\Debug\net6.0\UserSecurity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.Domain\obj\Debug\net6.0\UserSecurity.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.Domain\obj\Debug\net6.0\UserSecurity.Domain.AssemblyInfo.cs
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.Domain\obj\Debug\net6.0\UserSecurity.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.Domain\obj\Debug\net6.0\UserSecurity.Domain.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.Domain\obj\Debug\net6.0\refint\UserSecurity.Domain.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.Domain\obj\Debug\net6.0\UserSecurity.Domain.pdb
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserSecurity.Domain\obj\Debug\net6.0\ref\UserSecurity.Domain.dll
