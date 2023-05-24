@@ -5,9 +5,9 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserCachingAuth", "UserCachingAuth\UserCachingAuth.csproj", "{87CF8A69-839E-46EF-AA71-0DC743F24B70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserSecurity.DataAccess", "UserSecurity.DataAccess\UserSecurity.DataAccess.csproj", "{D32CBE11-C924-4A3C-966E-25FEE627EDF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserSecurityDataAccess", "UserSecurity.DataAccess\UserSecurityDataAccess.csproj", "{D32CBE11-C924-4A3C-966E-25FEE627EDF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserSecurity.Domain", "UserSecurity.Domain\UserSecurity.Domain.csproj", "{53B86E20-92D2-4F70-BE04-2809F4DA0EA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserSecurityDomain", "UserSecurity.Domain\UserSecurityDomain.csproj", "{53B86E20-92D2-4F70-BE04-2809F4DA0EA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

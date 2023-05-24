@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UserSecurity.Domain.Entities;
+using UserSecurityDomain.Entities;
 
-namespace UserSecurity.DataAccess.Context
+namespace UserSecurityDataAccess.Context
 {
     public class UserContext : DbContext
     {
@@ -19,6 +19,12 @@ namespace UserSecurity.DataAccess.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<AuthUser>(
+           eb =>
+           {
+               eb.HasNoKey();
+           });
         }
+
     }
 }

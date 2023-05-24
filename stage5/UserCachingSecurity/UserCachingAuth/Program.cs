@@ -4,15 +4,18 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 using System.Text;
-using UserSecurity.DataAccess.Context;
+using UserSecurityDataAccess.Implementation;
+using UserSecurityDomain.Repository;
+using UserSecurityDataAccess.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddControllers();
 builder.Services.AddDbContext<UserContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
@@ -39,6 +42,15 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateAudience = false
         };
     });
+
+builder.Services.AddScoped<IUnit, Unit>();
+builder.Services.AddScoped<IUserRepository, UserRepo>();
+builder.Services.AddScoped<ICaching, CachingRepo>();
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = "localhost:6379";
+});
+
 
 var app = builder.Build();
 

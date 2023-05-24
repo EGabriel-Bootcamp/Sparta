@@ -1,4 +1,4 @@
-﻿namespace UserSecurity.Domain.Model.Dtos
+﻿namespace UserSecurityDomain.Model.Dtos
 {
     public class AuthUserDto
     {

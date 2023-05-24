@@ -3,19 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UserSecurity.DataAccess.Context;
-using UserSecurity.Domain.Repository;
+using UserSecurityDataAccess.Implementation;
+using UserSecurityDataAccess.Context;
+using UserSecurityDomain.Repository;
 
-namespace UserSecurity.DataAccess.Implementation
+namespace UserSecurityDataAccess.Implementation
 {
     public class Unit : IUnit
     {
         private readonly UserContext _context;
+        private ICaching cacheService;
 
         public Unit(UserContext context)
         {
             _context = context;
-            User = new UserRepo(_context);
+            User = new UserRepo(_context, cacheService);
 
         }
 

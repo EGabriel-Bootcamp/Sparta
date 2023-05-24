@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserSecurity.Domain.Model
+namespace UserSecurityDomain.Model
 {
     public class UserFilter
     {

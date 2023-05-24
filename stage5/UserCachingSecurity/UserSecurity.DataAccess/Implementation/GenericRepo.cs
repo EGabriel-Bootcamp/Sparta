@@ -3,18 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UserSecurity.DataAccess.Context;
-using UserSecurity.Domain.Repository;
+using UserSecurityDataAccess.Context;
+using UserSecurityDomain.Repository;
 
-namespace UserSecurity.DataAccess.Implementation
+namespace UserSecurityDataAccess.Implementation
 {
     public class GenericRepo<T> : IGenericRepo<T> where T : class
     {
         private readonly UserContext context;
+        private readonly ICaching cacheService;
 
-        public GenericRepo(UserContext context)
+        public GenericRepo(UserContext context, ICaching cacheService)
         {
             this.context = context;
+            this.cacheService = cacheService;
         }
         public void Create(T entity)
         {
@@ -33,7 +35,16 @@ namespace UserSecurity.DataAccess.Implementation
 
         public IEnumerable<T> GetAll()
         {
-            return context.Set<T>().ToList();
+            var cacheResult = cacheService.GetData<IEnumerable<T>>("key");
+            if (cacheResult != null)
+            {
+                return cacheResult;
+            }
+            var result = context.Set<T>().ToList();
+            var expiryTime = DateTimeOffset.Now.AddSeconds(60);
+            cacheService.SetData<IEnumerable<T>>("key", result, expiryTime);
+
+            return result;
         }
 
         public IEnumerable<T> GetBy(System.Linq.Expressions.Expression<Func<T, bool>> predicate)

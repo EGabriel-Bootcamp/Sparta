@@ -3,19 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UserSecurity.DataAccess.Context;
-using UserSecurity.Domain.Entities;
-using UserSecurity.Domain.Repository;
+using UserSecurityDataAccess.Context;
+using UserSecurityDomain.Entities;
+using UserSecurityDomain.Repository;
 
-namespace UserSecurity.DataAccess.Implementation
+namespace UserSecurityDataAccess.Implementation
 {
     public class UserRepo : GenericRepo<User>, IUserRepository
     {
         private readonly UserContext context;
+        private readonly ICaching cacheService;
 
-        public UserRepo(UserContext context) : base(context)
+        public UserRepo(UserContext context, ICaching cacheService) : base(context, cacheService)
         {
             this.context = context;
+            this.cacheService = cacheService;
         }
 
         public void UpdateUser(User user)

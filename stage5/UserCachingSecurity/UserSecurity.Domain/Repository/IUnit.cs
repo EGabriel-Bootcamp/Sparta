@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserSecurity.Domain.Repository
+namespace UserSecurityDomain.Repository
 {
     public interface IUnit : IDisposable
     {

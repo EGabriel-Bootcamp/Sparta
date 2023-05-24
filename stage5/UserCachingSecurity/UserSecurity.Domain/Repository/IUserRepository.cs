@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UserSecurity.Domain.Entities;
+using UserSecurityDomain.Entities;
 
-namespace UserSecurity.Domain.Repository
+namespace UserSecurityDomain.Repository
 {
     public interface IUserRepository : IGenericRepo<User>
     {

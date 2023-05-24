@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using UserSecurity.Domain.Entities;
-using UserSecurity.Domain.Model;
-using UserSecurity.Domain.Repository;
+using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
+using UserSecurityDataAccess.Migrations;
+using UserSecurityDomain.Entities;
+using UserSecurityDomain.Model;
+using UserSecurityDomain.Repository;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -10,22 +13,25 @@ namespace UserCachingAuth.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UsersController : ControllerBase
     {
         private readonly IUnit unit;
         private readonly IUserRepository userRepository;
+        private readonly IDistributedCache distributedCache;
 
-        public UsersController(IUnit unit, IUserRepository userRepository)
+        public UsersController(IUnit unit, IUserRepository userRepository, IDistributedCache distributedCache)
         {
             this.unit = unit;
             this.userRepository = userRepository;
+            this.distributedCache = distributedCache;
         }
         // GET: api/<UsersController>
         [HttpGet]
-        public ActionResult<IEnumerable<User>> Get()
+        public async Task<ActionResult<IEnumerable<User>>> Get()
         {
-            var user = userRepository.GetAll();
-            return Ok(user);
+            var users = userRepository.GetAll();
+            return Ok(users);
         }
 
         // GET api/<UsersController>/5
@@ -41,7 +47,7 @@ namespace UserCachingAuth.Controllers
         }
 
         // POST api/<UsersController>
-        [HttpPost]
+        [HttpPost, Authorize(Roles = "Admin")]
         public IActionResult Post(User newUser)
         {
             if (newUser == null)
@@ -54,7 +60,7 @@ namespace UserCachingAuth.Controllers
         }
 
         // PUT api/<UsersController>/5
-        [HttpPut("{id}")]
+        [HttpPut("{id}"), Authorize(Roles = "Admin")]
         public IActionResult Put(int id, User updatedUser)
         {
             if (updatedUser == null || id != updatedUser.Id)
@@ -73,7 +79,7 @@ namespace UserCachingAuth.Controllers
         }
 
         // DELETE api/<UsersController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete("{id}"), Authorize(Roles = "Admin")]
         public IActionResult Delete(int id)
         {
             var user = userRepository.GetById(id);

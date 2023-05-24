@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.DataAccess\\UserSecurity.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.DataAccess\\UserSecurity.DataAccess.csproj"
+              "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.DataAccess\\UserSecurityDataAccess.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.DataAccess\\UserSecurityDataAccess.csproj"
               }
             }
           }
@@ -68,9 +68,21 @@
               "target": "Package",
               "version": "[7.0.5, )"
             },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.29.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.111, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -108,12 +120,12 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.DataAccess\\UserSecurity.DataAccess.csproj": {
+    "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.DataAccess\\UserSecurityDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.DataAccess\\UserSecurity.DataAccess.csproj",
-        "projectName": "UserSecurity.DataAccess",
-        "projectPath": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.DataAccess\\UserSecurity.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.DataAccess\\UserSecurityDataAccess.csproj",
+        "projectName": "UserSecurityDataAccess",
+        "projectPath": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.DataAccess\\UserSecurityDataAccess.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
@@ -136,8 +148,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.Domain\\UserSecurity.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.Domain\\UserSecurity.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.Domain\\UserSecurityDomain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.Domain\\UserSecurityDomain.csproj"
               }
             }
           }
@@ -171,6 +183,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.111, )"
             }
           },
           "imports": [
@@ -193,12 +213,12 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.Domain\\UserSecurity.Domain.csproj": {
+    "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.Domain\\UserSecurityDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.Domain\\UserSecurity.Domain.csproj",
-        "projectName": "UserSecurity.Domain",
-        "projectPath": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.Domain\\UserSecurity.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.Domain\\UserSecurityDomain.csproj",
+        "projectName": "UserSecurityDomain",
+        "projectPath": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.Domain\\UserSecurityDomain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Desktop\\TimothyProjects\\Sparta\\stage5\\UserCachingSecurity\\UserSecurity.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -232,6 +252,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.111, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

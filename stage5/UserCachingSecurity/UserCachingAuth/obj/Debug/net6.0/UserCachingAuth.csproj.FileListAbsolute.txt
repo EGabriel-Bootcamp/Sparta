@@ -29,7 +29,6 @@ C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCach
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\obj\Debug\net6.0\UserCachingAuth.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\obj\Debug\net6.0\UserCachingAuth.AssemblyInfo.cs
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\obj\Debug\net6.0\UserCachingAuth.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\obj\Debug\net6.0\UserCachingAuth.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\obj\Debug\net6.0\UserCachingAuth.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\obj\Debug\net6.0\staticwebassets\msbuild.UserCachingAuth.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\obj\Debug\net6.0\staticwebassets\msbuild.build.UserCachingAuth.props
@@ -77,10 +76,6 @@ C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCach
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\UserSecurity.DataAccess.dll
-C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\UserSecurity.Domain.dll
-C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\UserSecurity.DataAccess.pdb
-C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\UserSecurity.Domain.pdb
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\Scrutor.dll
@@ -93,3 +88,12 @@ C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCach
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\UserSecurityDataAccess.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\UserSecurityDomain.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\UserSecurityDataAccess.pdb
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\UserSecurityDomain.pdb
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\bin\Debug\net6.0\StackExchange.Redis.dll
+C:\Users\User\Desktop\TimothyProjects\Sparta\stage5\UserCachingSecurity\UserCachingAuth\obj\Debug\net6.0\UserCachingAuth.MvcApplicationPartsAssemblyInfo.cs
